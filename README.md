@@ -30,10 +30,22 @@ On a plain `dsh web` profile replace `desktop` with `web`, then restart. From in
 
 ## Usage
 
-1. Click `+` in the composer — the **技能 / Skills** group is the first thing in the menu.
-2. Pick a skill to insert `/skill-name ` into the draft, or press Enter on the highlighted row.
-3. Open **管理技能 / Manage skills** to search, enable, disable, delete or batch-manage installed skills.
-4. Open **从本地添加技能 / Add skill from local** to import a skill folder from your disk.
+**1. Reference a skill in chat (image 1)** — double-click the `+` button next to the composer to open the skill picker; choosing a skill inserts `/skill-name ` into the draft so you can finish your request before sending. Nothing is sent automatically.
+
+![Double-click + to reference a skill](assets/usage-1.png)
+
+**2. Skill manager (image 2)** — the manager panel lets you search installed skills, enable/disable each one, delete (files move to a recoverable trash folder), batch enable/disable, and import a skill folder from disk.
+
+![Skill manager](assets/usage-2.png)
+
+## What this plugin does
+
+A **skill reference tool built into the chat**, similar to the WorkBuddy skill bar — quick and convenient:
+
+- **Reference skills where you talk** — no page switching, no typing full names: double-click `+`, pick a skill, finish your sentence, send;
+- **You decide what is on** — one toggle per skill in the manager; disabled skills disappear from the `+` picker immediately;
+- **Tidy even with many skills** — search, groups (user-defined / workspace / built-in) and batch actions keep dozens of skills findable in seconds;
+- **No duplicates, no leakage** — the typed `/` skill menu is untouched, and subagent composers are fully isolated.
 
 ## Notes
 
