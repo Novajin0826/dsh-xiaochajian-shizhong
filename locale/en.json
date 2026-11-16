@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Skill Management",
+    "description": "Adds a Skills group to the composer + menu with enable/disable filtering, and a manager panel for search, toggle, delete and batch manage. Choosing a skill inserts its slash command into the draft without sending."
+  }
+}
